@@ -6,7 +6,7 @@ with open("statutes.txt", "r", encoding="utf-8") as f:
     statutes = f.read().splitlines()
 
 # User query (does not go in statutes file)
-query = "tenant does not pay rent"
+query = "tenant does does does not not not pay money to landlord"
 
 # Load a pretrained model
 model = SentenceTransformer('all-MiniLM-L6-v2')  # English version
